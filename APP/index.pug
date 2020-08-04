@@ -3,22 +3,20 @@
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="viewport", content="width=device-width")
         link(rel="stylesheet", href="css/style.css")
         title Document
     body    
-        include pug/header
-        include pug/sticky
-        main
-            include pug/home
-            include pug/features
-            include pug/music
-            include pug/screenshots
-            include pug/video
-            include pug/first_ever_upp
-            include pug/testimonials
-            include pug/who_we_are.pug
-            include pug/partners
-            include pug/pricing.pug
-        footer 
+        .wrapper
+            include pug/header.pug
+            include pug/home.pug
+            include pug/services.pug
+            include pug/about.pug
+            include pug/works.pug
+            include pug/blog.pug
+            include pug/clients.pug
+            include pug/contact.pug
             include pug/footer.pug
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
