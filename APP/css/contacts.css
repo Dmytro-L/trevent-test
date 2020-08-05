@@ -1,11 +1,11 @@
 .contact {
   max-width: 100%; }
   .contact__block {
+    padding: 70px 0;
     margin: 0 auto;
     max-width: 100%; }
 
 .main {
-  padding-bottom: 150px;
   margin-top: 50px;
   display: flex;
   justify-content: space-between; }

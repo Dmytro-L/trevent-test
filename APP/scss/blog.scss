@@ -1,6 +1,6 @@
 .recent{
     &__block{
-        padding-bottom: 50px;
+        padding: 50px 0;
     }
     &__row{
         padding: 35px 0;
@@ -54,10 +54,7 @@
                     text-transform: uppercase;
 
                 }
-                H2:hover{
-                    color: #c0301c;
-                    
-                }
+                
                 H3{
                     margin-left: 20px;
                     margin-top: 10px;
@@ -68,13 +65,7 @@
                     line-height: 24px;
                     font-style: italic;
                 }
-                H3:hover{
-                    span{
-                        color: #c0301c;
-                        font-weight: 500;
-
-                    }
-                }
+                
             }
         }
         @media (max-width:930px){
@@ -98,14 +89,28 @@
             font-weight: 700;
             line-height: 24px;
             letter-spacing: 1.3px;
-            a:hover{
-                padding: 15px 35px;
-                color: #c0301c;
-                border: 1px solid #c0301c;
-                
-            }
+            
         }
         
+    }
+    &__column:hover{
+        H2:hover{
+            color: #c0301c;
+            
+        }
+        H3:hover{
+            span{
+                color: #c0301c;
+                font-weight: 500;
+
+            }
+        }
+        a:hover{
+                
+            color: #c0301c;
+            
+            
+        }
     }
     @media (max-width:930px){
         &__row{

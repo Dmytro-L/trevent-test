@@ -1,7 +1,9 @@
 .about{
     background-color: #f8f8f8;
     width: 100%;
-
+    &__main{
+        padding: 70px 0;
+    }
     &__text{
         margin-top: 30px;
         display: flex;
@@ -21,68 +23,81 @@
         }
 
     }
-
+    @media (max-width:800px){
+        &__text{
+            display: block;
+            p:first-child{
+                padding-left: 15px;
+                }
+            p:last-child{
+                padding-right: 15px;
+                margin-top: 30px;
+            }
+    }
+    }
 &__people{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    
 
 }
-&__container{
-    display: block;
-    position: relative;
-}
 &__block-column{
+    margin: 0 15px;
+}
+
+&__container{
+    display: flex;
+    position: relative;
+    
+    img{
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+    }
     
     
-    .all{
-        opacity: 0;
-        width: 90%;
-        height: 100%;
-        background-color: rgba(85, 85, 85, 0.5);
-        position: absolute;
+    
+        
         .logo-a{
+            opacity: 0;
+            position: absolute;
+            z-index: 10;
             width: 100%;
+            height: 100%;
+            background-color: rgba(85, 85, 85, 0.5);
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 50%;
-            
+            transition: all 1s ease 0s;
             .img-1{
-                width: 30px;
-                height: 30px;
+                margin-right: 25px;
+                width: 25px;
+                height: 25px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-right: 15px;
-                
             }
             .img-1:last-child{
                 margin-right: 0;
             }
             .img-1:hover{
-                background-color: #c0301c
+                background-color: #c0301c;
+                transition: all 1s ease 0s;
             }
-
-            
+        }
+        .logo-a:hover{
+            opacity: 1;
+            transition: all 1s ease 0s;
 
         }
         
-    }
-    .all:hover{
-        opacity: 1;
-    }
-    .face{
-        img{
-            
-        }
-        
+    
 
-        
-    }
 }
-H2,H3{
+
+.minih2,H3{
     margin-top: 10px;
     text-align: center;
             color: #555555;
@@ -90,5 +105,6 @@ H2,H3{
             font-size: 14px;
             font-weight: 400;
             line-height: 24px
+            
 }
 }

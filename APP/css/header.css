@@ -15,8 +15,7 @@
     flex: 0 0 95px;
     overflow: hidden;
     position: relative;
-    z-index: 3; }
-  .header__logo p {
+    z-index: 3;
     max-width: 100%;
     color: #ffffff;
     font-family: Montserrat;
@@ -33,7 +32,7 @@
     list-style: none;
     margin-left: 20px; }
   .header__link {
-    width: 540px;
+    width: 539px;
     height: 14px;
     color: #ffffff;
     font-family: Montserrat;

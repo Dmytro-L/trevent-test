@@ -1,8 +1,7 @@
 header.header
     .container
         .header__body
-            a.header__logo(href="#")
-                p Startup
+            a.header__logo(href="#") Startup
             .header__burger
                 span
             nav.header__menu
@@ -10,4 +9,3 @@ header.header
                     each item in [{name:'Home',id:"#home"}, {name:'Services',id:"#services"}, {name:'About',id:"#about"}, {name:'Works',id:"#works"}, {name:'Blog',id:"#blog"}, {name:'Clients',id:"#clients"}, {name:'Contact',id:"#contact"}]
                         li
                             a.header__link(href=item.id )= item.name
-            

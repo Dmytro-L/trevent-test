@@ -2,17 +2,19 @@
     max-width: 100%;
 
     // .services__column
-
+    &__main{
+        padding: 50px 0;
+    }
     &__column {
         margin-top: 70px;
         display: flex;
         justify-content: space-between;
-        padding-bottom: 30px;
+        
     }
     @media (max-width:600px){
         &__column{
             display: block;
-            padding-bottom: 10px;
+            
         }
         
     }

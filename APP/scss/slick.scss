@@ -22,6 +22,18 @@
     height:60px;
     margin-top: 120px;
 }
+@media (max-width:1025px){
+    .slick-arrow{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media (max-width:1025px){
+    .slick-arrow{
+        margin-top: 60px;
+    }
+}
+
 .slick-arrow:hover{
     background-color: #c0301c;
 }
@@ -35,6 +47,12 @@
     content: url(../img/arrow.png);
     opacity: 0.8;
     
+}
+@media (max-width:1025px){
+    .slick-arrow.slick-prev:after{
+        content: url(../img/back_arrow_5821.png);
+        
+}
 }
 
 /*
@@ -71,6 +89,13 @@
     opacity: 0.8;
     
 }
+@media (max-width:1025px){
+    .slick-arrow.slick-next:after{
+        content: url(../img/back_arrow.png);
+        
+}
+}
+
 /*
 .slick-arrow.slick-next:after,
 .slick-arrow.slick-next:before{

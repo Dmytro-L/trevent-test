@@ -1,14 +1,14 @@
 .services {
   max-width: 100%; }
+  .services__main {
+    padding: 50px 0; }
   .services__column {
     margin-top: 70px;
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px; }
+    justify-content: space-between; }
   @media (max-width: 600px) {
     .services__column {
-      display: block;
-      padding-bottom: 10px; } }
+      display: block; } }
   .services__each-column .redlogo {
     border: 2px solid #dddddd;
     background-color: #c0301c; }

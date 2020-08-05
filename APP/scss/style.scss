@@ -18,29 +18,47 @@ body{
 
 }
 .block-title{
+    position: relative;
     text-align: center;
-    padding-top: 70px;
+    
+    
     .maintitle{
         color: #555555;
         font-family: Montserrat;
         font-size: 20px;
         font-weight: 400;
         line-height: 24px;
-        margin-bottom: 28px;
-    }
-    .mainline{
         
-        margin: 0 auto;
+    }
+    
+    .maintitle:after{
+        content: "";
         width: 50px;
-        height: 1px;
-        background-color: #555555;}
+        height: 2px;
+        background-color: #555555;
+        position: absolute;
+        margin-top: 50px;
+        left: 50%;
+        margin-left: -25px;
+        
+        
+        
+        
+        
+
+        
+        
+        
+    }
     .titleh2{
-        margin-top: 28px;
+        margin-top: 48px;
         color: #555555;
         font-family: "Roboto Slab";
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;}
+        line-height: 24px;
+    
+    }
 }
 @import "header.scss";
 @import "home.scss";

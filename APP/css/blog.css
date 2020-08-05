@@ -1,5 +1,5 @@
 .recent__block {
-  padding-bottom: 50px; }
+  padding: 50px 0; }
 
 .recent__row {
   padding: 35px 0;
@@ -41,8 +41,6 @@
       font-weight: 400;
       line-height: 24px;
       text-transform: uppercase; }
-    .recent__column .title-column .text-title H2:hover {
-      color: #c0301c; }
     .recent__column .title-column .text-title H3 {
       margin-left: 20px;
       margin-top: 10px;
@@ -52,9 +50,6 @@
       font-weight: 400;
       line-height: 24px;
       font-style: italic; }
-    .recent__column .title-column .text-title H3:hover span {
-      color: #c0301c;
-      font-weight: 500; }
   @media (max-width: 930px) {
     .recent__column__column {
       justify-content: center; } }
@@ -73,10 +68,16 @@
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 1.3px; }
-    .recent__column .link a:hover {
-      padding: 15px 35px;
-      color: #c0301c;
-      border: 1px solid #c0301c; }
+
+.recent__column:hover H2:hover {
+  color: #c0301c; }
+
+.recent__column:hover H3:hover span {
+  color: #c0301c;
+  font-weight: 500; }
+
+.recent__column:hover a:hover {
+  color: #c0301c; }
 
 @media (max-width: 930px) {
   .recent__row {

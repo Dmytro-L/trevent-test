@@ -7,8 +7,10 @@ $(document).ready(function() {
                     settings: {
                         slidesToShow:2,
                     }
+                    
                 }
             ]
+            
             
         });
     $('.header__burger').click(function(event) {
