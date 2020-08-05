@@ -133,6 +133,8 @@ body {
     letter-spacing: 0.35px; }
   .header__link:hover {
     color: #c0301c; }
+  .header__link:active {
+    color: #c0301c; }
   @media (max-width: 600px) {
     .header__logo {
       flex: 0 0 170px;

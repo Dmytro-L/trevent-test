@@ -7,7 +7,7 @@ header.header
                 span
             nav.header__menu
                 ul.header__list
-                    each item in ['Home', 'Services', 'About', 'Works', 'Blog', 'Clients', 'Contact']
+                    each item in [{name:'Home',id:"#home"}, {name:'Services',id:"#services"}, {name:'About',id:"#about"}, {name:'Works',id:"#works"}, {name:'Blog',id:"#blog"}, {name:'Clients',id:"#clients"}, {name:'Contact',id:"#contact"}]
                         li
-                            a.header__link(href="https://varta1.com.ua/" )= item
+                            a.header__link(href=item.id )= item.name
             

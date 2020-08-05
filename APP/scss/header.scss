@@ -56,6 +56,9 @@
             list-style: none;
             margin-left: 20px;
         }
+        &__list li:focus-within{
+
+        }
 
 		// .header__link
 
@@ -71,6 +74,9 @@
 
         }
         &__link:hover{
+            color: #c0301c;
+        }
+        &__link:active{
             color: #c0301c;
         }
 
