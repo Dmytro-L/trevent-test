@@ -5,12 +5,19 @@ $(document).ready(function() {
                 {
                     breakpoint: 1200,
                     settings: {
+                        slidesToShow:3,
+                    }
+                    
+                },
+                {
+                    breakpoint:980,
+                    settings: {
                         slidesToShow:2,
                     }
                     
                 }
             ]
-            
+        
             
         });
     $('.header__burger').click(function(event) {

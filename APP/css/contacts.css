@@ -85,7 +85,7 @@
       max-width: 200px; } }
   @media (max-width: 750px) {
     .form__1line input {
-      max-width: 145px; } }
+      max-width: 135px; } }
   .form__3line textarea {
     width: 730px;
     height: 104px;
@@ -111,7 +111,7 @@
       max-width: 430px; } }
   @media (max-width: 750px) {
     .form__3line textarea {
-      max-width: 320px; } }
+      max-width: 300px; } }
   .form__button {
     margin-top: 20px;
     display: flex;

@@ -1,3 +1,5 @@
+include mix-var.pug
+
 header.header
     .container
         .header__body
@@ -6,6 +8,6 @@ header.header
                 span
             nav.header__menu
                 ul.header__list
-                    each item in [{name:'Home',id:"#home"}, {name:'Services',id:"#services"}, {name:'About',id:"#about"}, {name:'Works',id:"#works"}, {name:'Blog',id:"#blog"}, {name:'Clients',id:"#clients"}, {name:'Contact',id:"#contact"}]
+                    each item in items
                         li
                             a.header__link(href=item.id )= item.name

@@ -134,7 +134,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
     @media (max-width:750px){
         &__1line{
             input{
-                max-width: 145px;
+                max-width: 135px;
             }
         }
     }
@@ -176,7 +176,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
     @media (max-width:750px){
         &__3line{
             textarea{
-                max-width: 320px;
+                max-width: 300px;
             }
         }
     }

@@ -67,6 +67,10 @@
     position: relative; }
   .work__works {
     padding: 70px 0; }
+  .work__block img {
+    display: block;
+    width: 100%;
+    height: 100%; }
   @media (max-width: 400) {
     .work__container {
       max-width: 100%;
