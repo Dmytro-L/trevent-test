@@ -1,0 +1,150 @@
+@charset "UTF-8";
+.post__top {
+  padding-top: 30px;
+  text-align: center; }
+  .post__top H3 {
+    font-size: 30px;
+    font-family: "Raleway";
+    color: #555555;
+    font-weight: bold; }
+  .post__top p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: #8c8c8c;
+    line-height: 1.75; }
+
+.post__block {
+  padding-bottom: 100px; }
+  .post__block .sliderpost {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* Слайдер */
+    /* Ограничивающая оболочка */
+    /* Лента слайдов */
+    /* Стрелка влево */
+    /* Стрелка вправо */ }
+    .post__block .sliderpost__img {
+      position: relative;
+      width: 32%;
+      margin-bottom: 170px;
+      border: 1px solid rgba(139, 93, 93, 0.1); }
+      .post__block .sliderpost__img .main {
+        width: 100%; }
+      .post__block .sliderpost__img .item {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: 5;
+        border-radius: 8px; }
+        .post__block .sliderpost__img .item .up {
+          background-color: rgba(76, 80, 88, 0.7);
+          border-radius: 5px 5px 0 0;
+          width: 50px;
+          height: 35px;
+          font-size: 24px;
+          font-family: "Montserrat";
+          color: white;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        .post__block .sliderpost__img .item .down {
+          width: 50px;
+          background-color: #3c3e42;
+          border-radius: 0 0 5px 5px;
+          height: 25px;
+          font-size: 12px;
+          font-family: "Roboto";
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+      .post__block .sliderpost__img .bottom {
+        padding-left: 10px;
+        padding-bottom: 10px; }
+        .post__block .sliderpost__img .bottom H3 {
+          font-size: 20px;
+          font-family: "Raleway";
+          color: #555555;
+          padding-top: 20px;
+          text-align: left;
+          min-width: 100%; }
+        .post__block .sliderpost__img .bottom .text {
+          margin-top: 20px;
+          font-size: 14px;
+          font-family: "Montserrat";
+          color: #8c8c8c;
+          line-height: 1.5;
+          text-align: left; }
+        .post__block .sliderpost__img .bottom button {
+          margin-top: 20px;
+          background-color: transparent;
+          display: flex;
+          align-items: center; }
+          .post__block .sliderpost__img .bottom button img {
+            margin-left: 15px;
+            display: block; }
+          .post__block .sliderpost__img .bottom button .buttontext {
+            font-size: 14px;
+            font-family: "Montserrat";
+            color: #c7b299; }
+    .post__block .sliderpost__img:hover .bottom {
+      background-color: #472929;
+      transition: all 3s ease 0s; }
+      .post__block .sliderpost__img:hover .bottom H3 {
+        color: #c7b299;
+        transition: all 3s ease 0s; }
+      .post__block .sliderpost__img:hover .bottom .text {
+        color: white;
+        transition: all 3s ease 0s; }
+    .post__block .sliderpost__img:hover .item .up {
+      background-color: #8b5d5d;
+      transition: all 3s ease 0s; }
+    .post__block .sliderpost__img:hover .item .down {
+      background-color: #634141;
+      transition: all 3s ease 0s; }
+    .post__block .sliderpost__img:hover .top {
+      position: relative; }
+    .post__block .sliderpost__img:hover .background {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #160c0c;
+      opacity: .5;
+      transition: all 3s ease 0s; }
+    .post__block .sliderpost .slick-slider {
+      min-width: 0;
+      position: relative; }
+    .post__block .sliderpost .slick-slide {
+      margin: 0 15px; }
+    .post__block .sliderpost .slick-list {
+      max-width: 100%;
+      overflow: hidden; }
+    .post__block .sliderpost .slick-track {
+      display: flex;
+      justify-content: space-between; }
+    .post__block .sliderpost .slick-arrow {
+      position: absolute;
+      z-index: 10;
+      font-size: 0;
+      width: 20px;
+      height: 20px;
+      background-color: transparent;
+      top: 105%; }
+    .post__block .sliderpost .slick-arrow.slick-prev {
+      left: 50%;
+      margin-left: -25px;
+      background-image: url(../img/leftcircle.png);
+      background-size: cover; }
+    .post__block .sliderpost .slick-arrow.slick-prev:focus {
+      background-image: url(../img/lefthovercircle.png); }
+    .post__block .sliderpost .slick-arrow.slick-next {
+      right: 50%;
+      background-image: url(../img/rightcircle.png);
+      background-size: cover;
+      margin-right: -25px; }
+    .post__block .sliderpost .slick-arrow.slick-next:focus {
+      background-image: url(../img/righthovercircle.png); }

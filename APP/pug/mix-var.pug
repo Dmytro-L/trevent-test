@@ -1,0 +1,55 @@
+
+
+mixin homeslide
+    .home__slide.slide
+        H2.titleHomeH2 Unique and Modern Design
+        H1.titleHomeH1 Portfolio PSD Template
+        p.textHome  Nam liber tempor cum soluta nobis eleifend option congue nihil imper-<br>diet doming id quod placerat facer possim assum.
+        button.buttonHome
+            p.buttonHome__text GET STARTED
+
+mixin about(imgSrc, name)
+        .block-about
+            img(src=imgSrc, alt="#")
+            H3.title= name
+            p Nam liber tempor cum soluta nobiseleifend option congue nivil imprezdiet doming id quod mazim.
+
+
+mixin items(imgSrc, name, job)
+    .items__block
+        .items__png
+            .hover
+                .hover-block
+                    .hover-1
+                        img(src="../img/link.png", alt="#")
+                    .hover-2
+                        img(src="../img/lupa.png", alt="#")
+            .phone
+                img(src=imgSrc, alt="#")
+            
+        .items__text
+            H4= name
+            p= job
+                
+mixin child(imgSrc, number, text)
+    .child
+        img(src=imgSrc, alt="#")
+        p= number
+        H6= text
+
+mixin post(imgSrc)
+        .sliderpost__img.slide
+            .top
+                img.main(src=imgSrc, alt="#")
+                .item
+                    p.up 30
+                    p.down Sep.
+                .background
+            .bottom
+                H3 Lorem ipsum dolor sit amet
+                p.text Claritas est etiam processus dinamicus, qul sequitur mutationem consuetudium.
+                button 
+                    p.buttontext Read More 
+                    img(src="../img/arrow.png", alt="#")
+
+

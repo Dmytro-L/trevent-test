@@ -1,0 +1,29 @@
+@import "../css/0.css";
+
+$color: rgb(255, 255, 255);
+$color-hover: rgb(199, 178, 153);
+html,
+body{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 5px;
+    
+}
+
+@import "header.scss";
+@import "home.scss";
+@import "about.scss";
+@import "project.scss";
+@import "video.scss";
+@import "mobile.scss";
+@import "post.scss";
+@import "logo.scss";
+@import "contact.scss";
+@import "footer.scss";

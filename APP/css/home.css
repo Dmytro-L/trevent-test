@@ -1,0 +1,149 @@
+@charset "UTF-8";
+.home {
+  min-height: 100vh;
+  background-image: url(../img/bg-home.png);
+  background-position: center;
+  background-size: cover; }
+  .home .container {
+    min-height: 100vh;
+    display: flex; }
+  .home__block {
+    text-align: center;
+    margin: auto;
+    transition: all 3s ease 0s; }
+  .home__block.active {
+    display: none;
+    transition: all 3s ease 0s; }
+  .home__slide .titleHomeH2 {
+    font-size: 36px;
+    font-family: "Raleway";
+    color: white;
+    line-height: 1.2; }
+  @media (max-width: 600px) {
+    .home__slide .titleHomeH2 {
+      font-size: 18px; } }
+  .home__slide .titleHomeH1 {
+    font-size: 52px;
+    font-family: "Raleway";
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 10px; }
+  @media (max-width: 600px) {
+    .home__slide .titleHomeH1 {
+      font-size: 26px; } }
+  .home__slide .textHome {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: white;
+    line-height: 1.5;
+    margin-top: 15px; }
+  @media (max-width: 600px) {
+    .home__slide .textHome {
+      font-size: 8px; } }
+  .home__slide .buttonHome {
+    margin-top: 25px;
+    border-radius: 3px;
+    background-color: #c7b299;
+    box-shadow: inset 0px 4px 0px 0px rgba(115, 99, 87, 0.4);
+    width: 170px;
+    height: 53px;
+    margin-bottom: 10px; }
+    .home__slide .buttonHome__text {
+      font-size: 14px;
+      font-family: "Raleway";
+      color: white;
+      font-weight: bold;
+      line-height: 1.643; }
+  .home__slide .buttonHome:hover {
+    transition: 0.3s;
+    transform: scale(1.2); }
+
+/* Слайдер */
+.slick-slider {
+  min-width: 0;
+  position: relative; }
+
+/* Ограничивающая оболочка */
+.slick-list {
+  max-width: 600px;
+  overflow: hidden; }
+
+@media (max-width: 600px) {
+  .slick-list {
+    max-width: 270px; } }
+
+/* Лента слайдов */
+.slick-track {
+  display: flex; }
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 73px;
+  background-color: transparent; }
+
+@media (max-width: 800px) {
+  .slick-arrow {
+    display: none; } }
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+  left: -50%;
+  background-image: url(../img/left.png); }
+
+@media (max-width: 1300px) {
+  .slick-arrow.slick-prev {
+    left: -25%; } }
+
+@media (max-width: 1023px) {
+  .slick-arrow.slick-prev {
+    left: -10%; } }
+
+.slick-arrow.slick-prev:hover {
+  background-image: url(../img/lefthover.png); }
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+  right: -50%;
+  background-image: url(../img/right.png); }
+
+@media (max-width: 1300px) {
+  .slick-arrow.slick-next {
+    right: -25%; } }
+
+@media (max-width: 1023px) {
+  .slick-arrow.slick-next {
+    right: -10%; } }
+
+.slick-arrow.slick-next:hover {
+  background-image: url(../img/righthover.png); }
+
+/* Точки (булиты) */
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.slick-dots li {
+  list-style: none;
+  margin-bottom: -50%; }
+
+/* Активная точка */
+.slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid #c7b299;
+  width: 12px;
+  height: 12px; }
+
+/* Элемент точки */
+.slick-dots li button {
+  font-size: 0;
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+  opacity: .7;
+  margin: 0 5px; }

@@ -1,0 +1,33 @@
+.brend{
+    background-image: url(../img/photobgr.png);
+    height: 500px;
+    background-size: cover;
+    
+
+    .container{
+        display: flex;
+        height: 100%;
+        
+    }
+    &__block{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        
+        @media(max-width:500px){
+            img{
+                max-width: 75%;
+            }
+        }
+        
+        
+        
+        
+
+        
+    }
+    
+}

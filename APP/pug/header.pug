@@ -1,0 +1,24 @@
+- var items = [{name:'About us',id:"#about"}, {name:'Portfolio',id:"#portfolio"}, {name:'Features',id:"#Features"}, {name:'Blog',id:"#blog"}, {name:'Pricing',id:"#pricing"}, {name:'Shortcodes',id:"#shortcodes"}, {name:'Contact',id:"#contact"}]
+
+
+.header
+    .container
+        .header__block
+            .header__brand
+                a(href="#")
+                    img(src="../img/logos.png", alt="@")
+                    img(src="../img/Waxom.png", alt="@")
+            .header__burger
+                span
+            nav.header__menu
+                ul.header__list
+                    each item in items
+                        li
+                            a.header__link(href=item.id )= item.name
+                .header__item
+                    .shop
+                        a(href="#")
+                            img.shop__png(src="../img/icon-cart.png", alt="@")
+                    .search
+                        input.search__input(type="text")
+                        img.search__png(src="../img/icon-search.png", alt="@")
