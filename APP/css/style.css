@@ -651,11 +651,13 @@ body {
     font-size: 13px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 1.3px; }
+    letter-spacing: 1.3px;
+    transition: all 1s;}
     .recent__column .link a:hover {
       padding: 15px 35px;
       color: #c0301c;
-      border: 1px solid #c0301c; }
+      border: 1px solid #c0301c;
+      transition: all 1s;}
 
 @media (max-width: 930px) {
   .recent__row {
