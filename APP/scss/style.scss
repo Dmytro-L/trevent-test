@@ -283,10 +283,32 @@ body * {
             }
         }
 }
+.backgr{
+    display: none;
+}
+
 @media (max-width:710px){
+    @keyframes menu {
+        0%{ opacity: 0;}
+        100%{
+            opacity: 1;
+        }
+    }
+    .backgr{
+        margin-top: -1000px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top,rgba(207, 105, 199, 0.384),rgba(243, 185, 255, 0.103));
+        transition: 1s;
+    }
+    .yes{
+        margin-top: 0;
+        transition: 1s;
+    }
     .lock{
         overflow: hidden;
-        background: linear-gradient(to top,rgba(207, 105, 199, 0.384),#fff);
+        
         
     }
     
