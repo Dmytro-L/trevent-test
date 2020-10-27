@@ -26,7 +26,7 @@ body * {
 .top-header {
     width: 100%;
     height: 30px;
-    background: rgb(82, 71, 128);
+    background: rgba(58, 58, 58, 0.329);
     background: linear-gradient(to left, rgba(201, 201, 201, 0.57), rgba(0, 0, 0, 0.788) );
     
 
@@ -91,7 +91,7 @@ body * {
         font-size: 100px;
         left: 50%;
         margin-left: -25%;
-        color: #2d343870;
+        color: #000000;
         animation-name: frame;
         animation-duration: 2s;
         animation-timing-function: ease-in-out;
@@ -180,7 +180,7 @@ body * {
 }
 .logo:hover{
     .K{
-        color: rgba(223, 4, 4, 0.521);
+        color: rgba(61, 0, 0, 0.521);
         transition: 1s;
     }
 }
@@ -213,7 +213,7 @@ body * {
             
             font-family: Caveat;
             font-size: $fs18;
-            color: rgb(56, 64, 73);
+            color: rgb(0, 0, 0);
             letter-spacing: 1.5px;
             transition: 1s;
             animation-name: menu;
