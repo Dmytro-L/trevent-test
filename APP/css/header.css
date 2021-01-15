@@ -89,7 +89,8 @@ header {
       position: relative;
       width: 42px;
       margin: 0 auto;
-      height: 42px; }
+      height: 42px;
+      margin-top: -8px; }
     .header__list input {
       height: 32px;
       width: 0;
