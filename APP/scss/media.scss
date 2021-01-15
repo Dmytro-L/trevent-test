@@ -95,6 +95,9 @@
             left: 0;
             li:nth-child(3),
             li:nth-child(4){
+                .arrow{
+                    height: 15px;
+                }
             ul{
                 right: 20px;
                 top: 0;

@@ -494,6 +494,9 @@ header {
       padding: 10px;
       top: 70px;
       left: 0; }
+      .header__list.active li:nth-child(3) .arrow,
+      .header__list.active li:nth-child(4) .arrow {
+        height: 15px; }
       .header__list.active li:nth-child(3) ul,
       .header__list.active li:nth-child(4) ul {
         right: 20px;
