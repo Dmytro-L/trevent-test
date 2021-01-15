@@ -1,0 +1,29 @@
+.clients{
+    text-align: center;
+    &__title{
+        color: rgb(255, 255, 255);
+        font-size: 37px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3.09px;
+        margin-top: 80px;
+    }
+    .swiper-container{
+        margin-top: 50px;
+
+    }
+    .swiper-wrapper{
+        align-items: center;
+    }
+    .swiper-button-next:after{
+        margin-left: 30px;
+    }
+    .swiper-button-prev:after{
+        margin-right: 30px;
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after{
+        font-size: 17px;
+        color: #B2B2B2;
+    }
+}

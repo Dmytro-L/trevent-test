@@ -1,0 +1,21 @@
+.clients {
+  text-align: center; }
+  .clients__title {
+    color: white;
+    font-size: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.09px;
+    margin-top: 80px; }
+  .clients .swiper-container {
+    margin-top: 50px; }
+  .clients .swiper-wrapper {
+    align-items: center; }
+  .clients .swiper-button-next:after {
+    margin-left: 30px; }
+  .clients .swiper-button-prev:after {
+    margin-right: 30px; }
+  .clients .swiper-button-next:after,
+  .clients .swiper-button-prev:after {
+    font-size: 17px;
+    color: #B2B2B2; }
