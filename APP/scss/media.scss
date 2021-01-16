@@ -137,6 +137,11 @@
     
 }
 @media (max-width:650px){
+    .header{
+        &__language{
+            margin: 0;
+        }
+    }
     .top{
         .swiper-container{
             .swiper-wrapper{
@@ -179,7 +184,7 @@
             .swiper-wrapper{
                 .slider-wrapper{
                     position: absolute;
-                    top: 10%;
+                    top: 120px;
                     left: 10%;
                 }
                 .swiper-slide{
@@ -191,6 +196,7 @@
                 }
                 .title-slider{
                     font-size: 49px;
+                    line-height: 45px;
                 }
                 .text-slider{
                     font-size: 15px;

@@ -569,6 +569,8 @@ header {
     padding: 0 20px; } }
 
 @media (max-width: 650px) {
+  .header__language {
+    margin: 0; }
   .top .swiper-container .swiper-wrapper H4 {
     font-size: 27px; }
   .top .swiper-container .swiper-wrapper .title-slider {
@@ -590,7 +592,7 @@ header {
 @media (max-width: 450px) {
   .top .swiper-container .swiper-wrapper .slider-wrapper {
     position: absolute;
-    top: 10%;
+    top: 120px;
     left: 10%; }
   .top .swiper-container .swiper-wrapper .swiper-slide {
     background-position: center;
@@ -598,7 +600,8 @@ header {
   .top .swiper-container .swiper-wrapper H4 {
     font-size: 27px; }
   .top .swiper-container .swiper-wrapper .title-slider {
-    font-size: 49px; }
+    font-size: 49px;
+    line-height: 45px; }
   .top .swiper-container .swiper-wrapper .text-slider {
     font-size: 15px; } }
 
