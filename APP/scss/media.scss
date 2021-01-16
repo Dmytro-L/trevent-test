@@ -16,7 +16,6 @@
             display: none;
         }
         &__list{
-            width: 593px;
             a{
                 font-size: 15px;
             }
@@ -28,9 +27,9 @@
     .top{
         .swiper-container{
             .swiper-wrapper{
-                display: flex;
-                .slider-main{
-                    margin: auto;
+                .slider-wrapper{
+                    top: 30%;
+                    left: 30%;
                 }
             }
         }
@@ -58,7 +57,9 @@
         }
         
         &__list{
-            width: 493px;
+            li{
+                margin: 0 5px;
+            }
             a{
                 font-size: 13px;
             }
@@ -80,7 +81,10 @@
     .header{
         justify-content: space-evenly;
         
-        
+        &__wrapper{
+            width: 100%;
+            justify-content: space-evenly;
+        }
         &__burger{
             display: block;
         }
@@ -174,14 +178,14 @@
     .top{
         .swiper-container{
             .swiper-wrapper{
+                .slider-wrapper{
+                    position: absolute;
+                    top: 10%;
+                    left: 10%;
+                }
                 .swiper-slide{
                     background-position: center;
                     height: 545px;
-                }
-                .slider-main{
-                margin-left: 0;
-                padding-left: 10px;
-                padding-top: 120px;
                 }
                 H4{
                     font-size: 27px;
@@ -204,11 +208,7 @@
                     background-position: center;
                     height: 545px;
                 }
-                .slider-main{
-                margin-left: 0;
-                padding-left: 10px;
-                padding-top: 100px;
-                }
+                
                 H4{
                     font-size: 25px;
                 }

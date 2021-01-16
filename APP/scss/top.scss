@@ -6,18 +6,21 @@
         .swiper-wrapper{
             color: #ffffff;
             min-width: 0;
+            position: relative;
+            .slider-wrapper{
+                position: absolute;
+                top: calc(50% - 121px);
+                left: calc(50% + 100px);
+            }
             .swiper-slide{
                 background-image: url(../img/bg1.png);
                 background-position: left top;
                 background-repeat: no-repeat;
                 width: 100%;
                 height: 945px;
+                
             }
-            .slider-main{
-                margin-left: 50%;
-                padding-top: 333px;
-                padding-left: 93px;
-            }
+            
             H4{
                 font-size: 37px;
                 font-weight: 400;
@@ -77,8 +80,6 @@
         }
     }
     .aboute {
-        width: 1298px;
-        margin: 0 auto;
         padding-top: 25px;
 
         // .aboute__main

@@ -3,8 +3,7 @@
     height: 310px;
     display: flex;
     position: relative;
-    &__main{
-        width: 813px;
+    &__main{;
         margin: auto;
         text-align: center;
         .menu{
@@ -13,6 +12,9 @@
             display: flex;
             color: white;
             justify-content: space-between;
+            li{
+                margin: 0 10px;
+            }
             a{
                 color: #4d4d4d;
                 font-size: 14px;

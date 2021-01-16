@@ -9,16 +9,13 @@
     padding: 0 5px; }
     .header__contact-header {
       display: none; }
-    .header__list {
-      width: 593px; }
-      .header__list a {
-        font-size: 15px; }
+    .header__list a {
+      font-size: 15px; }
   .aboute {
     max-width: 100%; }
-  .top .swiper-container .swiper-wrapper {
-    display: flex; }
-    .top .swiper-container .swiper-wrapper .slider-main {
-      margin: auto; }
+  .top .swiper-container .swiper-wrapper .slider-wrapper {
+    top: 30%;
+    left: 30%; }
   .product .item {
     justify-content: space-evenly;
     padding: 0 30px; } }
@@ -28,10 +25,10 @@
     height: 70px; }
   .header__logo img {
     width: 150px; }
-  .header__list {
-    width: 493px; }
-    .header__list a {
-      font-size: 13px; }
+  .header__list li {
+    margin: 0 5px; }
+  .header__list a {
+    font-size: 13px; }
   .footer__main {
     width: 100%;
     padding: 0 20px; } }
@@ -41,6 +38,9 @@
     height: 70px; }
   .header {
     justify-content: space-evenly; }
+    .header__wrapper {
+      width: 100%;
+      justify-content: space-evenly; }
     .header__burger {
       display: block; }
     .header__list.active {
@@ -97,13 +97,13 @@
         font-size: 18px; } }
 
 @media (max-width: 450px) {
+  .top .swiper-container .swiper-wrapper .slider-wrapper {
+    position: absolute;
+    top: 10%;
+    left: 10%; }
   .top .swiper-container .swiper-wrapper .swiper-slide {
     background-position: center;
     height: 545px; }
-  .top .swiper-container .swiper-wrapper .slider-main {
-    margin-left: 0;
-    padding-left: 10px;
-    padding-top: 120px; }
   .top .swiper-container .swiper-wrapper H4 {
     font-size: 27px; }
   .top .swiper-container .swiper-wrapper .title-slider {
@@ -115,10 +115,6 @@
   .top .swiper-container .swiper-wrapper .swiper-slide {
     background-position: center;
     height: 545px; }
-  .top .swiper-container .swiper-wrapper .slider-main {
-    margin-left: 0;
-    padding-left: 10px;
-    padding-top: 100px; }
   .top .swiper-container .swiper-wrapper H4 {
     font-size: 25px; }
   .top .swiper-container .swiper-wrapper .title-slider {

@@ -4,7 +4,6 @@
   display: flex;
   position: relative; }
   .footer__main {
-    width: 813px;
     margin: auto;
     text-align: center; }
     .footer__main .menu {
@@ -13,6 +12,8 @@
         display: flex;
         color: white;
         justify-content: space-between; }
+        .footer__main .menu__bottom li {
+          margin: 0 10px; }
         .footer__main .menu__bottom a {
           color: #4d4d4d;
           font-size: 14px;

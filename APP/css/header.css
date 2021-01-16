@@ -1,26 +1,29 @@
 header {
+  max-width: 100%;
+  height: 121px; }
+
+.header {
   display: flex;
-  height: 121px;
   position: fixed;
+  height: 121px;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
   background-color: black; }
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  width: 1426px; }
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; }
   .header__logo img {
     display: block; }
   .header__contact-header {
     display: flex;
-    margin-left: 14px; }
+    margin-left: 14px;
+    align-items: flex-end; }
     .header__contact-header .phone-png {
-      margin: 6px 12px 0 0; }
+      margin-right: 12px; }
     .header__contact-header .phone-number .schedule {
       color: #e6362c;
       font-size: 12px;
@@ -41,9 +44,11 @@ header {
     background-color: transparent;
     color: #e6362c; }
   .header__list {
-    width: 693px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
+    .header__list li {
+      margin: 0 15px; }
     .header__list li:nth-child(3),
     .header__list li:nth-child(4) {
       display: flex;
@@ -72,7 +77,8 @@ header {
     .header__list a {
       color: #ffffff;
       font-size: 19px;
-      font-weight: 400; }
+      font-weight: 400;
+      font-family: 'Clear Sans'; }
     .header__list a:after {
       content: '';
       width: 0;
@@ -89,8 +95,7 @@ header {
       position: relative;
       width: 42px;
       margin: 0 auto;
-      height: 42px;
-      margin-top: -8px; }
+      height: 42px; }
     .header__list input {
       height: 32px;
       width: 0;
