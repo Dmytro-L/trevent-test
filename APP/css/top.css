@@ -7,8 +7,8 @@
     position: relative; }
     .top .swiper-container .swiper-wrapper .slider-wrapper {
       position: absolute;
-      top: calc(50% - 121px);
-      left: calc(50% + 100px); }
+      top: calc(50% - 141px);
+      left: calc(50% + 90px); }
     .top .swiper-container .swiper-wrapper .swiper-slide {
       background-image: url(../img/bg1.png);
       background-position: left top;
@@ -19,36 +19,35 @@
       font-size: 37px;
       font-weight: 400;
       text-align: left;
-      letter-spacing: 3.19px;
+      letter-spacing: 3.59px;
       text-transform: uppercase; }
     .top .swiper-container .swiper-wrapper .title-slider {
       font-size: 69px;
       font-weight: 400;
       text-align: left;
-      letter-spacing: 4.6px;
-      font-weight: 700;
-      margin-top: 2px;
-      line-height: 74px; }
+      letter-spacing: 3.2px;
+      font-weight: 800;
+      line-height: 71px; }
     .top .swiper-container .swiper-wrapper .text-slider {
       font-size: 19px;
       font-weight: 400;
       line-height: 32.05px;
       text-align: left;
-      margin-top: 22px; }
+      margin-top: 29px; }
     .top .swiper-container .swiper-wrapper .more {
       display: flex;
       width: 172px;
       height: 43px;
       background-color: #E6362C;
       border-radius: 3px;
-      margin-top: 33px; }
+      margin-top: 35px; }
       .top .swiper-container .swiper-wrapper .more .more-text {
         margin: auto;
         color: #ffffff;
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
-        letter-spacing: 0.35px;
+        letter-spacing: 0.7px;
         font-weight: 300; }
   .top .swiper-container .swiper-pagination-bullet {
     width: 13px;
@@ -60,11 +59,12 @@
   .top .swiper-container .swiper-pagination-bullet-active {
     background-color: #E6362C; }
   .top .aboute {
-    padding-top: 25px; }
+    padding-top: 20px; }
     .top .aboute__main {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around; }
+      justify-content: space-around;
+      padding: 0 65px; }
   .top .block {
     text-align: center; }
     .top .block__image-wrapper {
