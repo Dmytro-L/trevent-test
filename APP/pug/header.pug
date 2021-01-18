@@ -4,28 +4,29 @@ header
             .header__logo
                 a(href="#")
                     img(src="img/logo.png", alt="TREVENT")
-            .header__contact-header
-                .phone-png
-                    img(src="img/phone.png", alt="")
-                .phone-number
-                    p.schedule Графік роботи: 09:00-18:00
+            .header__contact
+                .header__contact-header
+                    .phone-png
+                        img(src="img/phone.png", alt="")
+                    .phone-number
+                        p.schedule Графік роботи: 09:00-18:00
 
-                    select.number
+                        select.number
+                            option(value="01" selected)
+                                span (098) 86 900 25
+                            option(value="02")
+                                span (093) 86 900 25
+                            option(value="03")
+                                span (050) 86 900 25
+                .header__language
+                    img(src="img/Ukraine.png", alt="")
+                    select.language
                         option(value="01" selected)
-                            span (098) 86 900 25
+                            span UA
                         option(value="02")
-                            span (093) 86 900 25
+                            span RU
                         option(value="03")
-                            span (050) 86 900 25
-            .header__language
-                img(src="img/Ukraine.png", alt="")
-                select.language
-                    option(value="01" selected)
-                        span UA
-                    option(value="02")
-                        span RU
-                    option(value="03")
-                        span EN
+                            span EN
             .header__menu.menu
                 ul.header__list
                     li 

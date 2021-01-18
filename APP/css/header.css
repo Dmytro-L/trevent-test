@@ -20,10 +20,14 @@ header {
     align-items: center; }
   .header__logo img {
     display: block; }
+  .header__contact {
+    display: flex;
+    max-width: 360px;
+    margin-left: 27px;
+    margin-top: -2px; }
   .header__contact-header {
     display: flex;
     margin-top: -5px;
-    margin-left: 62px;
     align-items: flex-end; }
     .header__contact-header .phone-png {
       margin-right: 12px; }
@@ -31,10 +35,11 @@ header {
       color: #e6362c;
       font-size: 12px;
       font-weight: 400;
-      margin-left: 4px;
+      margin-left: 5px;
       text-transform: uppercase;
-      letter-spacing: .2px; }
+      letter-spacing: 0.2px; }
     .header__contact-header .phone-number .number {
+      margin-left: -1px;
       background-color: transparent;
       color: #ffffff;
       font-size: 21px;
@@ -45,13 +50,11 @@ header {
       .header__contact-header .phone-number .number option {
         background: transparent; }
   .header__language {
-    margin-left: 60px;
+    margin-left: 63px;
     display: flex;
     align-items: center; }
     .header__language img {
-      display: block;
-      width: 100%;
-      height: 100%; }
+      display: block; }
     .header__language .language {
       margin-left: 2px;
       background-color: transparent;
@@ -62,7 +65,9 @@ header {
     justify-content: space-between;
     align-items: center; }
     .header__list li {
-      margin-left: 28px; }
+      margin-left: 30px; }
+    .header__list li:nth-child(1) {
+      margin-left: 0; }
     .header__list li:nth-child(3),
     .header__list li:nth-child(4) {
       display: flex;
@@ -78,7 +83,7 @@ header {
         position: absolute;
         top: 100%;
         transform: scaleY(0);
-        transition: all .7s ease;
+        transition: all 0.7s ease;
         transform-origin: 0 0; }
         .header__list li:nth-child(3) ul li,
         .header__list li:nth-child(4) ul li {
@@ -86,30 +91,30 @@ header {
     .header__list li:nth-child(3):hover ul,
     .header__list li:nth-child(4):hover ul {
       transform: scaleY(1);
-      transition: all .7s ease;
+      transition: all 0.7s ease;
       transform-origin: 0 0; }
     .header__list a {
       color: #ffffff;
       font-size: 19px;
       font-weight: 400;
-      font-family: 'Clear Sans'; }
+      font-family: "Clear Sans"; }
     .header__list a:after {
-      content: '';
+      content: "";
       width: 0;
       height: 2px;
       display: block;
       background-color: #ffffff;
-      -webkit-transition: width .3s ease-in-out;
-      -moz--transition: width .3s ease-in-out;
-      transition: width .3s ease-in-out; }
+      -webkit-transition: width 0.3s ease-in-out;
+      -moz--transition: width 0.3s ease-in-out;
+      transition: width 0.3s ease-in-out; }
     .header__list a:hover:after,
     .header__list a:hover:focus:after {
       width: 100%; }
     .header__list form {
       position: relative;
-      width: 42px;
+      width: 31px;
       margin: 0 auto;
-      height: 42px; }
+      height: 32px; }
     .header__list input {
       height: 32px;
       width: 0;
@@ -128,7 +133,7 @@ header {
     .header__list input:focus {
       width: 300px;
       z-index: 1;
-      border-bottom: 2px solid #F9F0DA;
+      border-bottom: 2px solid #f9f0da;
       background-color: black; }
     .header__list button {
       background: transparent;
@@ -146,18 +151,18 @@ header {
       width: 30px;
       height: 2px;
       background-color: white;
-      transition: all .5s; }
+      transition: all 0.5s; }
     .header__burger .burger.active {
       background-color: black;
-      transition: all .5s; }
+      transition: all 0.5s; }
     .header__burger .burger:after,
     .header__burger .burger:before {
-      content: '';
+      content: "";
       position: absolute;
       width: 30px;
       height: 2px;
       background-color: white;
-      transition: all .8s; }
+      transition: all 0.8s; }
     .header__burger .burger:after {
       top: 10px; }
     .header__burger .burger:before {
@@ -165,8 +170,8 @@ header {
     .header__burger .burger.active:after {
       transform: rotate(-225deg);
       top: 14px;
-      transition: all .5s; }
+      transition: all 0.5s; }
     .header__burger .burger.active:before {
       transform: rotate(225deg);
       bottom: 13px;
-      transition: all .5s; }
+      transition: all 0.5s; }

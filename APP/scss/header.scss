@@ -29,11 +29,16 @@ header {
     }
 
     // .header__contact-header
-
+    &__contact{
+        display: flex;
+        max-width: 360px;
+        margin-left: 27px;
+        margin-top: -2px;
+    }
     &__contact-header {
+
         display: flex;
         margin-top: -5px;
-        margin-left: 62px;
         align-items: flex-end;
 
         .phone-png {
@@ -44,12 +49,13 @@ header {
                 color: #e6362c;
                 font-size: 12px;
                 font-weight: 400;
-                margin-left: 4px;
+                margin-left: 5px;
                 text-transform: uppercase;
                 letter-spacing: 0.2px;
             }
 
             .number {
+                margin-left: -1px;
                 background-color: transparent;
                 color: #ffffff;
                 font-size: 21px;
@@ -67,13 +73,11 @@ header {
     // .header__language
 
     &__language {
-        margin-left: 60px;
+        margin-left: 63px;
         display: flex;
         align-items: center;
         img {
             display: block;
-            width: 100%;
-            height: 100%;
         }
         .language {
             margin-left: 2px;
@@ -90,8 +94,12 @@ header {
         justify-content: space-between;
         align-items: center;
         li {
-            margin-left: 28px;
+            margin-left: 30px;
         }
+        li:nth-child(1){
+            margin-left: 0;
+        }
+        
         li:nth-child(3),
         li:nth-child(4) {
             display: flex;
@@ -143,9 +151,9 @@ header {
         }
         form {
             position: relative;
-            width: 42px;
+            width: 31px;
             margin: 0 auto;
-            height: 42px;
+            height: 32px;
         }
         input {
             height: 32px;
