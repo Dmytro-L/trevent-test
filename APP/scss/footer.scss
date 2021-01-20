@@ -3,7 +3,10 @@
     height: 310px;
     display: flex;
     position: relative;
-    &__main{;
+    &__logo{
+        margin-top: 8px;
+    }
+    &__main{
         margin: auto;
         text-align: center;
         .menu{

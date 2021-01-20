@@ -432,6 +432,7 @@ header {
     letter-spacing: 3.09px;
     margin-top: 70px; }
   .clients .swiper-container {
+    padding-bottom: 12px;
     margin-top: 50px; }
   .clients .swiper-wrapper {
     align-items: center; }
@@ -449,6 +450,8 @@ header {
   height: 310px;
   display: flex;
   position: relative; }
+  .footer__logo {
+    margin-top: 8px; }
   .footer__main {
     margin: auto;
     text-align: center; }

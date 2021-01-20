@@ -3,6 +3,8 @@
   height: 310px;
   display: flex;
   position: relative; }
+  .footer__logo {
+    margin-top: 8px; }
   .footer__main {
     margin: auto;
     text-align: center; }
