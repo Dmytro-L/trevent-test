@@ -15,7 +15,7 @@
     "gulp-sass": "^4.1.0"
   },
   "dependencies": {
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "reset-css": "^5.0.1"
   }
 }
